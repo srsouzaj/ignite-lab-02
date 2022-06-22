@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-zinc-900 text-zinc-100;
+}
+
+
+.title{
+    @apply text-5xl font-bold text-violet-500
+}
