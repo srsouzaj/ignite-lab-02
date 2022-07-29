@@ -31,7 +31,7 @@ export const Lesson = (props: LessonProps) => {
           {isLessonAvailable ? (
             <span className="text-sm text-blue-500 font-medium flex items-center gap-2">
               <CheckCircle size={20} />
-              Conteúdo Liberado
+              Conteúdo Liberado - Só assistir
             </span>
           ) : (
             <span className="text-sm text-orange-500 font-medium flex items-center gap-2">
